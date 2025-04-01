@@ -1,7 +1,4 @@
 [build]
-base = "Netflix_clone/Netflix-React"
-publish = "Netflix_clone/Netflix-React/dist"
-command = "npm run build"
-
-[functions]
-directory = "Netflix_clone/Netflix-React/netlify/functions"
+base = "Netflix-React"
+command = "npm install && npm run build"
+publish = "Netflix-React/dist"
