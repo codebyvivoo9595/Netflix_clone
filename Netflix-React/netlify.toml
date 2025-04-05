@@ -1,4 +1,5 @@
 [build]
-base = "Netflix-React"
+base = "Netflix_clone/Netflix-React"
+publish = "dist"
 command = "npm install && npm run build"
-publish = "Netflix-React/dist"
+
