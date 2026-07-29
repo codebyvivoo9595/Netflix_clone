@@ -39,9 +39,11 @@ This application was built purely for learning and experimentation and is **not 
 
 **Application:** https://beautiful-hummingbird-8f2323.netlify.app/
 
-> **Note:** This project was originally integrated with Firebase Authentication for user login. The Firebase project used during development is no longer active, so the authentication flow is currently unavailable in the deployed demo.
+> **Note:** This project was originally integrated with Firebase Authentication for user registration and login.
 >
-> The deployed application is still available to showcase the user interface, project structure, and React implementation. The complete source code remains available for learning and reference purposes.
+> The Firebase Authentication configuration used during development is no longer active. As a result, **new users can still access the registration page, but authentication is not functional, and existing users cannot log in using their previously created accounts.**
+>
+> This project remains available to showcase the user interface, React implementation, application structure, and source code for learning and reference purposes.
 
 ---
 
@@ -90,7 +92,7 @@ This project is a **Proof of Concept (POC)** and has successfully achieved its l
 - Netflix-inspired UI
 - React component architecture
 - Responsive layout
-- Firebase Authentication
+- Firebase Authentication integration
 - Netlify deployment
 
 ### 📅 Possible Future Enhancements
